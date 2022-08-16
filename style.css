@@ -1,0 +1,44 @@
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Noto Sans TC', sans-serif;
+}
+nav li{
+	    margin: 0 13px;
+		background-color: #f2ea02;
+}
+
+.btn{
+    background-color: #f2ea02;
+    padding: 7px 28px;
+    border-radius: 20px;
+    border: none;
+}
+.btn:hover{
+	opacity:0.8;
+	background-color: #f2ea02;
+}
+h1{
+    color: #f2ea02;
+}
+h3{
+    color: #f2ea02;
+}
+h4{
+    color: #f2ea02;
+}
+.lead1{
+    color: #f2ea02;
+}
+p{
+	font-size: 16px;
+    line-height: 26px;
+    color: #f2ea02;
+}
+p.lead{
+	color: bline-height 31px;
+}
+footer ul a{
+	color: #f2ea02;
+}
+footer a{
+	color:#f05f5c;
+}
