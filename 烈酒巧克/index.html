@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<title>無標題文件</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+<!--JS程式(顯示隱藏元素)-->
+<script type="text/javascript">
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'block':(v=='hide')?'none':v; }
+    obj.display=v; }
+}
+</script>
+</head>
+
+<body>
+<header>
+  <div class="logo"><img src="image/logo.svg" alt=""/></div>
+  <div class="menu">
+    <p><a href="company.html">關於公司</a></p>
+    <p><a href="Product Introduction.html">產品介紹</a></p>
+    <p><a href="Joining Notice.html">加盟須知</a></p>
+	<div class="mobile-menu"><a href="#" onClick="MM_showHideLayers('menu-m','','show')"><img src="image/mobile-menu.svg" alt=""/></a></div>
+  </div>
+  <div class="menu-m" id="menu-m">
+    <p><a href="company.html">關於公司</a></p>
+    <p><a href="Product Introduction.html">產品介紹</a></p>
+	<p><a href="Joining Notice.html">加盟須知</a></p>
+	  <div class="close"><a href="#" onClick="MM_showHideLayers('menu-m','','hide')">close</a></div>
+  </div>
+</header>
+<section class="banner"><img src="image/Liquor Chocolate.jpg" width="1366" height="636" alt=""/></section>
+<section class="news">
+  <h1>公告</h1>
+  <div>
+    <h2>公告：</h2>
+    <div2><p> 親愛的巧克力愛好者們，
+感謝您們一直以來對我們網站的支持與喜愛！我們很高興地宣布，即日起開始，我們將推出全新口味的巧克力系列，滿足您的味蕾，帶給您更多美味的享受！快來瀏覽我們的網站，品味這場巧克力的盛宴吧！同時，我們也提供限量優惠，讓您更能愜意地品味每一口巧克力的精彩滋味。謝謝您一直以來的支持，讓我們一同分享巧克力的美好。</p></div2> 
+    <img src="image/ch1.jpg" width="2592" height="1728" alt=""/>
+  </div>
+  <div1>
+    <h2>公告：</h2>
+    <p>親愛的顧客們，
+為了回饋您們一直以來的支持，我們特別推出會員專屬福利！即日起，只要您成為我們的會員，就能享有每月限定的巧克力優惠價格，更有機會參與我們舉辦的線上活動，贏得豐富的巧克力禮品！成為會員，讓您的巧克力體驗更加獨特且豐富多彩。感謝您一直以來的支持，期待與您共同品味巧克力的無窮樂趣。</p>
+    <img src="image/ch2.jpg" width="2592" height="1728" alt=""/>
+  </div1>
+</section>
+<footer><h1>烈酒巧克</h1><span>06-2323554</span><span><a href="mailto:abc@lccnet.com.tw">abc@lccnet.com.tw</a></span><p>台南市XX區XX路100號</p></footer>
+</body>
+</html>
